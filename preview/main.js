@@ -35,9 +35,9 @@
   ' float band3=smoothstep(.55,.98,1.-abs(uv.y-.12-n*.3)*3.4);',
   ' vec3 teal=vec3(.06,.85,.6); vec3 green=vec3(.4,1.,.5); vec3 blue=vec3(.12,.4,.9);',
   ' vec3 col=vec3(.012,.024,.03);',
-  ' col+=teal*band*(.5+.6*n);',
-  ' col+=green*band2*.45*smoothstep(.15,.8,uv.x);',
-  ' col+=blue*band*band*.5*(1.-uv.x);',
+  ' col+=teal*band*(.38+.45*n);',
+  ' col+=green*band2*.34*smoothstep(.15,.8,uv.x);',
+  ' col+=blue*band*band*.38*(1.-uv.x);',
   ' col+=green*band3*.3*smoothstep(.6,.1,uv.x);',
   ' col*=smoothstep(1.3,.2,distance(uv,vec2(.5,.35)))+.06;',
   ' gl_FragColor=vec4(col,1.);}'].join('\n');

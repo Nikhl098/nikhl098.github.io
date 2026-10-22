@@ -1,13 +1,13 @@
 :root{
   --bg:#04070a; --ink:#eef4f2; --dim:#8fa3a0; --line:rgba(160,220,200,.12);
-  --glass:rgba(14,22,24,.55); --lime:#c9f24b; --lime-ink:#10160a; --orange:#ff7a1a;
+  --glass:rgba(9,15,17,.78); --lime:#c9f24b; --lime-ink:#10160a; --orange:#ff7a1a;
   --sans:"Space Grotesk",system-ui,sans-serif; --serif:"Instrument Serif",Georgia,serif; --mono:"Space Mono",monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
 #aurora{position:fixed;inset:0;width:100%;height:100%;z-index:-2;display:block}
-.grain{position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 50% 120%,rgba(4,7,10,.15),rgba(4,7,10,.8) 78%)}
+.grain{position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 50% 120%,rgba(4,7,10,.3),rgba(4,7,10,.88) 80%)}
 #prog{position:fixed;top:0;left:0;height:2px;background:var(--lime);width:0;z-index:99;box-shadow:0 0 8px var(--lime)}
 #wipe{position:fixed;inset:0;background:#04070a;z-index:98;opacity:1;transition:opacity .35s ease;pointer-events:none}
 #wipe.out{opacity:0}
@@ -60,7 +60,7 @@ h2{font-size:clamp(30px,4.6vw,54px);font-weight:300;letter-spacing:-.025em;line-
 .bento{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin-top:46px}
 .card{grid-column:span 4;background:var(--glass);border:1px solid var(--line);border-radius:20px;padding:24px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);position:relative;overflow:hidden;transition:transform .35s,border-color .35s}
 .card:hover{transform:translateY(-4px);border-color:rgba(201,242,75,.35)}
-.card.w3{grid-column:span 3}.card.w4{grid-column:span 4}.card.w6{grid-column:span 6}.card.w8{grid-column:span 8}.card.w12{grid-column:span 12}
+.card.w3{grid-column:span 3}.card.w4{grid-column:span 4}.card.w6{grid-column:span 6}.card.w8{grid-column:span 8}.card.w12,.bento>.w12{grid-column:span 12}
 .card .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
 .card h3{font-size:19px;font-weight:500;letter-spacing:-.01em;margin:10px 0 6px}
 .card p{font-size:13.5px;color:var(--dim)}
