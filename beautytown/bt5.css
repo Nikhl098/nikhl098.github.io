@@ -289,7 +289,7 @@ body:not(.ready) .rv{opacity:0}
 .offer .kick{color:var(--gold)}
 .offer h2{color:#fff7f4}
 .offer h2 em{color:#f3d9a8}
-.offer .hin{font:400 clamp(24px,3.2vw,32px)/1.3 var(--script);color:#e9b8cd;margin:-6px 0 16px}
+.offer .hin{font:400 clamp(24px,3.2vw,32px)/1.3 var(--script);color:#e9b8cd;margin:6px 0 16px}
 .offer .lead{color:#d9b6c6;max-width:660px}
 .offer-grid{display:grid;grid-template-columns:5fr 7fr;gap:44px;margin-top:52px;align-items:start}
 .oslide{position:relative;border-radius:var(--r);overflow:hidden;aspect-ratio:3/4;border:1px solid rgba(243,217,168,.4);box-shadow:0 34px 70px -34px rgba(0,0,0,.6)}
