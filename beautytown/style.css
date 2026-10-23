@@ -106,7 +106,7 @@ body.ready .ph-photos img{opacity:1;transform:none}
 .ph-in{position:relative;z-index:2;width:100%;text-align:center;padding:130px var(--pad) 42px;color:#fff7f4}
 .ph-in .sc{display:block;font-size:clamp(30px,4.4vw,46px);color:#f0c8d6;margin-bottom:6px;opacity:0}
 body.ready .ph-in .sc{animation:fadeup 1s .5s forwards}
-.ph-in h1{color:#fff}
+.ph-in h1{color:#fff;font-size:clamp(42px,5.6vw,80px)}
 .ph-in h1 .it{color:#f3b8cc}
 .ph-in .sub{color:#e9cdd6;margin:18px auto 0;max-width:56ch;opacity:0}
 body.ready .ph-in .sub{animation:fadeup 1s .75s forwards}
