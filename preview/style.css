@@ -99,7 +99,7 @@ h1 .sf{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing
 body.ready .ph::after{animation:phrev 1.1s cubic-bezier(.76,0,.24,1) .55s forwards}
 @keyframes phrev{to{transform:translateY(101%)}}
 .ph-frame{position:absolute;inset:0;border:1px solid var(--line);border-radius:6px;transform:translate(14px,14px);z-index:-1}
-.orbit{position:absolute;right:-38px;bottom:-38px;width:118px;height:118px;z-index:3}
+.orbit{position:absolute;top:-30px;right:-14px;bottom:auto;width:118px;height:118px;z-index:3}
 .orbit svg{width:100%;height:100%;animation:spin 14s linear infinite;overflow:visible}
 .orbit text{font:700 11.5px var(--mono);letter-spacing:.32em;fill:var(--ink);text-transform:uppercase}
 .orbit .star{fill:var(--acc)}

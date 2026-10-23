@@ -60,7 +60,10 @@ $$('.nl').forEach(el=>{const orig=el.textContent;let iv;
 /* reveals */
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
 const groups=new Map();
-$$('.rv').forEach(el=>{const p=el.parentElement;if(!groups.has(p))groups.set(p,0);el.style.transitionDelay=(groups.get(p)*70)+'ms';groups.set(p,groups.get(p)+1);io.observe(el)});
+const rvAll=$$('.rv');
+rvAll.forEach(el=>{const p=el.parentElement;if(!groups.has(p))groups.set(p,0);el.style.transitionDelay=(groups.get(p)*70)+'ms';groups.set(p,groups.get(p)+1);io.observe(el)});
+const sweep=()=>{const h=innerHeight;rvAll.forEach(el=>{if(!el.classList.contains('in')&&el.getBoundingClientRect().top<h*.92){el.classList.add('in');io.unobserve(el)}})};
+addEventListener('scroll',sweep,{passive:true});setTimeout(sweep,1400);
 
 /* parallax extras */
 const px=$$('[data-plx]');
