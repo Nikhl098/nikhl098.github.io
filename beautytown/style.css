@@ -274,3 +274,36 @@ body:not(.ready) .rv{opacity:0}
   .logo{flex-basis:100%;font-size:17px}
   .nl{font-size:9.5px;letter-spacing:.08em}
 }
+
+/* ===== light theme: ivory + blush rose + gold (user feedback 23 Oct) ===== */
+:root{
+  --bg:#faf5ee; --bg2:#fffdf9; --ink:#241a20; --mut:#6f6470; --line:rgba(36,26,32,.14);
+  --acc:#c2476d; --gold:#b98a1f;
+}
+::selection{background:var(--acc);color:#fffdf9}
+#loader{background:#faf5ee}
+.blob{background:radial-gradient(circle,rgba(194,71,109,.12),transparent 62%)}
+.blob.b2{background:radial-gradient(circle,rgba(185,138,31,.12),transparent 62%)}
+nav{background:linear-gradient(rgba(250,245,238,.92),transparent)}
+.btn{background:var(--acc);color:#fffdf9;border-color:var(--acc)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.ghost:hover{border-color:var(--acc);color:var(--acc)}
+.badge .dot{background:var(--gold)}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(185,138,31,.5)}50%{box-shadow:0 0 0 7px rgba(185,138,31,0)}}
+.card:hover,.panel:hover{border-color:rgba(194,71,109,.55)}
+.card::before,.panel::before{background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(194,71,109,.10),transparent 45%)}
+.status{color:var(--mut)}
+.status.ok{color:#1e7a46;border-color:rgba(30,122,70,.4)}
+.status.warn{color:#9a6a00;border-color:rgba(154,106,0,.4)}
+.status.info{color:#1f5fa8;border-color:rgba(31,95,168,.4)}
+.panel .num{-webkit-text-stroke:1.5px rgba(36,26,32,.22)}
+.kick{color:var(--acc)}
+.mq .tr span.d,.orbit .star{fill:var(--gold);color:var(--gold)}
+.mq .tr span.d{-webkit-text-stroke:0}
+.term{background:#141014;border-color:rgba(36,26,32,.25)}
+.map iframe{filter:grayscale(1) contrast(.95)}
+.cur2{border-color:rgba(36,26,32,.45)}
+body.hov .cur2{border-color:var(--acc);background:rgba(194,71,109,.08)}
+#loader .pct b{color:var(--acc)}
+.scroll-hint::after{background:linear-gradient(var(--acc),transparent)}
+footer a:hover{color:var(--acc)}
