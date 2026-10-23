@@ -102,8 +102,7 @@ h1 .it{font-style:italic;color:var(--acc)}
 body.ready .ph-photos img{opacity:1;transform:none}
 .ph-photos img:nth-child(2){transition-delay:.15s}
 .ph-photos img:nth-child(3){transition-delay:.3s}
-.hero.ph .ai-chip{position:absolute;right:20px;bottom:88px;z-index:3;font:500 10px var(--body);letter-spacing:.18em;text-transform:uppercase;color:#f3d9c8;border:1px solid rgba(255,243,238,.35);border-radius:100px;padding:8px 14px;background:rgba(46,18,32,.5);backdrop-filter:blur(6px)}
-@media(max-width:900px){.hero.ph .ai-chip{right:20px;bottom:88px}}
+.hero.ph .ai-chip{display:inline-block;margin-top:18px;font:500 10px var(--body);letter-spacing:.18em;text-transform:uppercase;color:#f3d9c8;border:1px solid rgba(255,243,238,.35);border-radius:100px;padding:8px 14px;background:rgba(46,18,32,.5);backdrop-filter:blur(6px)}
 .ph-veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(46,18,32,.62) 0%,rgba(46,18,32,.28) 42%,rgba(46,18,32,.88) 100%)}
 .ph-in{position:relative;z-index:2;width:100%;text-align:center;padding:130px var(--pad) 42px;color:#fff7f4}
 .ph-in .sc{display:block;font-size:clamp(30px,4.4vw,46px);color:#f0c8d6;margin-bottom:6px;opacity:0}
