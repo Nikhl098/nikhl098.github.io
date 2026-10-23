@@ -282,4 +282,4 @@ body:not(.ready) .rv{opacity:0}
 @media(max-width:640px){.logoimg{width:30px;height:30px;vertical-align:-7px}.flogo{height:72px}}
 
 /* clear the two-row mobile nav over the hero script title */
-@media(max-width:640px){.hero{padding-top:172px}}
+@media(max-width:640px){.ph-in{padding-top:176px}}
