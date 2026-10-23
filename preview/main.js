@@ -13,9 +13,11 @@ else if(loader){
 
 /* page wipe transitions */
 if(wipe){
+  const wipeOut=()=>{wipe.classList.remove('in');wipe.style.transition='none';wipe.style.transform='scaleY(1)';
+    wipe.getBoundingClientRect();wipe.style.transition='';wipe.style.transform='';wipe.classList.add('out')};
   if(loader&&!sessionStorage.getItem('pl')){wipe.style.display='none'}
-  else{wipe.style.transform='scaleY(1)';requestAnimationFrame(()=>requestAnimationFrame(()=>wipe.classList.add('out')))}
-  window.addEventListener('pageshow',e=>{if(e.persisted){wipe.classList.remove('in');wipe.style.transform='scaleY(1)';requestAnimationFrame(()=>requestAnimationFrame(()=>wipe.classList.add('out')))}});
+  else wipeOut();
+  window.addEventListener('pageshow',e=>{if(e.persisted)wipeOut()});
   $$('a[href$=".html"]').forEach(a=>a.addEventListener('click',e=>{
     const href=a.getAttribute('href');if(!href||e.metaKey||e.ctrlKey)return;
     e.preventDefault();wipe.style.display='';wipe.classList.remove('out');wipe.classList.add('in');
