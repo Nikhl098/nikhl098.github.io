@@ -1,64 +1,86 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>About Mohini Mishra | Beauty Town Makeup Studio, Etawah</title>
+<meta name="description" content="Beauty Town Makeup Studio is led by Mohini Mishra, professional makeup artist in Civil Lines, Etawah — 6000+ bridal makeups and a 29.8K Instagram family.">
+<meta name="theme-color" content="#34172a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About Mohini Mishra | Beauty Town Makeup Studio, Etawah">
+<meta property="og:description" content="Beauty Town Makeup Studio is led by Mohini Mishra, professional makeup artist in Civil Lines, Etawah — 6000+ bridal makeups and a 29.8K Instagram family.">
+<meta property="og:image" content="og.png">
 <link rel="icon" type="image/png" href="img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="bt5.css"></head><body>
-<title>About | Beauty Town Makeup Studio - Mohini Mishra, Etawah</title>
-<meta name="description" content="About Beauty Town Makeup Studio, Civil Lines Etawah - Mohini Mishra, professional makeup artist with 6000+ bridal makeups.">
-<div id="loader"><img class="llogo" src="img/logo-mark-gold.png" alt=""><div class="lname"><span>beauty town<i>.</i></span></div><div class="pct">LOADING - <b>000</b>%</div></div>
-<div id="wipe"></div><div id="prog"></div>
-<div class="blob"></div><div class="blob b2"></div>
-<nav><a class="logo" href="index.html"><img class="logoimg" src="img/logo-icon.png" alt="Beauty Town logo">beauty town<i>.</i></a><span class="sp"></span>
-<div class="nlinks"><a class="nl" href="index.html">Home</a><a class="nl on" href="about.html">About</a><a class="nl" href="services.html">Services</a><a class="nl" href="gallery.html">Gallery</a><a class="nl" href="contact.html">Contact</a>
-</div><a class="nav-cta" href="https://wa.me/919548267020" target="_blank" rel="noopener">Book now</a></nav>
-
-<header class="hero"><div class="wrap">
-<div class="badge"><span class="dot"></span>About the studio</div>
-<h1>
-<span class="line"><span style="animation-delay:.15s">The chair behind</span></span>
-<span class="line"><span class="it" style="animation-delay:.28s">6000+ bridal</span></span>
-<span class="line"><span style="animation-delay:.41s">mornings.</span></span>
-</h1>
-<p class="sub">Beauty Town Makeup Studio is led by Mohini Mishra, a professional makeup artist in Civil Lines, Etawah - trusted for bridal, engagement, party and festive looks, and hair treatments.</p>
+<link rel="apple-touch-icon" href="img/logo-icon.png">
+<link rel="preload" href="fonts/CormorantGaramond-normal-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Manrope-normal-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
+<header class="nav"><div class="wrap">
+<a class="brand" href="index.html" aria-label="Beauty Town Makeup Studio, home"><img src="img/logo-icon.png" alt="" width="40" height="40"><span><b>Beauty Town</b><small>Makeup Studio</small></span></a>
+<nav class="nlinks" aria-label="Main"><a href="index.html">Home</a><a href="about.html" aria-current="page">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+<a class="btn nav-cta" href="https://wa.me/919548267020" target="_blank" rel="noopener">Book now</a>
+<button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mmenu"><span></span></button>
 </div></header>
-
-<section class="blush" style="padding-top:90px"><div class="wrap"><div class="about-grid">
-<div class="aph rv"><img src="img/artist.jpg" alt="Mohini Mishra, professional makeup artist"></div>
+<div class="mmenu" id="mmenu" aria-hidden="true">
+<nav aria-label="Mobile"><a href="index.html"><small>01</small>Home</a><a href="about.html" aria-current="page"><small>02</small>About</a><a href="services.html"><small>03</small>Services</a><a href="gallery.html"><small>04</small>Gallery</a><a href="contact.html"><small>05</small>Contact</a></nav>
+<div class="mfoot">
+<a class="btn gold" href="https://wa.me/919548267020" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-1 .24-3.36-.7-2.84-1.12-4.63-4.03-4.77-4.22-.14-.19-1.14-1.52-1.14-2.9s.72-2.06.98-2.34c.25-.28.55-.35.74-.35l.53.01c.17.01.4-.06.62.48.25.6.84 2.06.91 2.21.07.15.12.32.02.51-.1.19-.15.31-.3.48l-.44.52c-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.06 1.14 1.01 2.1 1.33 2.4 1.48.3.15.47.12.65-.07.17-.2.74-.87.94-1.17.2-.3.39-.25.66-.15.27.1 1.72.81 2.01.96.3.15.49.22.57.34.07.12.07.71-.18 1.4Z"/></svg> Book on WhatsApp</a>
+<a class="btn light" href="tel:+919548267020"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg> +91 95482 67020</a>
+<p>Civil Lines, Etawah · near Dr. Sanjeev Yadav Hospital</p>
+</div>
+</div>
+<main id="main">
+<section class="phero"><div class="wrap"><div class="phero-grid">
+<div><span class="eyebrow fade-up">About the studio</span><h1 class="hero-h"><span class="ln"><span>The chair behind <em>6000+ bridal</em> mornings.</span></span></h1><p class="lead fade-up d2">Beauty Town Makeup Studio is led by Mohini Mishra, a professional makeup artist in Civil Lines, Etawah — trusted for bridal, engagement, party and festive looks, and hair treatments.</p><div class="btns fade-up d3"><a class="btn" href="https://wa.me/919548267020" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-1 .24-3.36-.7-2.84-1.12-4.63-4.03-4.77-4.22-.14-.19-1.14-1.52-1.14-2.9s.72-2.06.98-2.34c.25-.28.55-.35.74-.35l.53.01c.17.01.4-.06.62.48.25.6.84 2.06.91 2.21.07.15.12.32.02.51-.1.19-.15.31-.3.48l-.44.52c-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.06 1.14 1.01 2.1 1.33 2.4 1.48.3.15.47.12.65-.07.17-.2.74-.87.94-1.17.2-.3.39-.25.66-.15.27.1 1.72.81 2.01.96.3.15.49.22.57.34.07.12.07.71-.18 1.4Z"/></svg> Book on WhatsApp</a><a class="btn ghost" href="tel:+919548267020"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg> Call</a></div></div>
+<div class="stack fade-up d1"><div class="arch"><img src="img/w/look-purple.webp" alt="Signature look by Beauty Town" width="720" height="673" fetchpriority="high" decoding="async"></div><div class="arch"><img src="img/w/look-engagement.webp" alt="Engagement look by Beauty Town" width="710" height="900" fetchpriority="high" decoding="async"></div></div>
+</div></div></section><section class="tint"><div class="wrap"><div class="artist">
+<div class="portrait" data-r="zoom"><div class="arch"><img src="img/artist.jpg" alt="Mohini Mishra, professional makeup artist" width="700" height="700" loading="lazy" decoding="async"></div></div>
 <div>
-<p class="kick rv">01 <b>/</b> The artist</p>
-<p class="bigq rv">&ldquo;Every face is different. My work is to find <b>the look that was always yours.</b>&rdquo;</p>
-<p class="qattr rv">Mohini Mishra · Professional Makeup Artist</p>
-<p class="lead rv">From a single studio in Civil Lines, Mohini has built Beauty Town look by look - 6000+ bridal makeups, and a 29.8K-strong Instagram family that follows her work every day.</p>
-</div>
-</div></div></section>
-
+<span class="eyebrow" data-r>01 · The artist</span>
+<p class="quote" data-r>“Every face is different. My work is to find <b>the look that was always yours.</b>”</p>
+<p class="qattr" data-r>Mohini Mishra · Professional Makeup Artist</p>
+<p class="lead" data-r>From a single studio in Civil Lines, Mohini has built Beauty Town look by look — 6000+ bridal makeups, and a 29.8K-strong Instagram family that follows her work every day.</p>
+<p class="quote" data-r style="font-size:clamp(22px,2.4vw,28px);margin-top:30px">“Makeup should not hide a face. It should bring <b>the person in it</b> forward.”</p>
+</div></div></div></section>
 <section><div class="wrap">
-<p class="kick rv">02 <b>/</b> How a booking goes</p>
-<h2 class="rv">Every look, <em>planned before it is applied.</em></h2>
-<div class="steps">
-<div class="step rv"><p class="num">01</p><h3>Consultation</h3><p>We talk about your occasion, outfit, jewellery and the finish you like - natural, soft glam or full bridal.</p></div>
-<div class="step rv"><p class="num">02</p><h3>Look planning</h3><p>Shades, base and hairstyle are decided for your skin tone and the lighting of your venue.</p></div>
-<div class="step rv"><p class="num">03</p><h3>Skin &amp; hair prep</h3><p>Prep guidance and, where needed, a hair treatment so everything sits perfectly on the day.</p></div>
-<div class="step rv"><p class="num">04</p><h3>The reveal</h3><p>Makeup, hair, draping and setting - finished on time, ready for the camera and the long day ahead.</p></div>
-</div>
+<div class="shead center"><span class="eyebrow" data-r>02 · In numbers</span><h2 data-r>The studio, <em>in numbers.</em></h2></div>
+<div class="stats" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));max-width:980px;margin:0 auto">
+<div class="stat" data-r><b data-count="6000" data-suffix="+">6000+</b><span>Bridal makeups done</span></div>
+<div class="stat" data-r><b data-count="29.8" data-dec="1" data-suffix="K">29.8K</b><span>Instagram family</span></div>
+<div class="stat" data-r><b data-count="1139">1139</b><span>Looks posted</span></div>
+<div class="stat" data-r><b>Etawah</b><span>Civil Lines · near Dr. Sanjeev Yadav Hospital</span></div>
+</div></div></section>
+<section class="tint"><div class="wrap"><div class="shead center"><span class="eyebrow" data-r>03 · How a booking goes</span><h2 data-r>Every look, planned <em>before</em> it is applied.</h2></div><div class="steps"><article class="step" data-r><div class="n">01</div><h3>Consultation</h3><p>Share your occasion, outfit and jewellery on WhatsApp — we note the finish you love: natural, soft glam or full bridal.</p></article><article class="step" data-r><div class="n">02</div><h3>Look planning</h3><p>Shades, base and hairstyle decided for your skin tone and the lighting of your venue.</p></article><article class="step" data-r><div class="n">03</div><h3>Skin &amp; hair prep</h3><p>Prep guidance and, where needed, a hair treatment so everything sits perfectly on the day.</p></article><article class="step" data-r><div class="n">04</div><h3>The reveal</h3><p>Makeup, hair, draping and setting — finished on time, ready for the camera and the long day ahead.</p></article></div></div></section>
+<section class="blushbg"><div class="wrap">
+<div class="shead split-head"><div class="shead" style="margin:0"><span class="eyebrow" data-r>04 · Real studio work</span><h2 data-r>Her work, <em>up close.</em></h2></div><a class="link" href="gallery.html" data-r>Full gallery <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+<div class="real-grid"><a class="tile" data-r href="img/w/look-bridal.webp" data-lb data-cap="Bridal · Real studio work" data-alt="Bridal"><img src="img/w/look-bridal.webp" alt="Bridal — Beauty Town client look" width="720" height="786" loading="lazy" decoding="async"><span class="cap">Bridal<small>Studio work</small></span></a><a class="tile" data-r href="img/w/look-party.webp" data-lb data-cap="Party Glam · Real studio work" data-alt="Party Glam"><img src="img/w/look-party.webp" alt="Party Glam — Beauty Town client look" width="720" height="888" loading="lazy" decoding="async"><span class="cap">Party Glam<small>Studio work</small></span></a><a class="tile" data-r href="img/w/look-engagement.webp" data-lb data-cap="Engagement · Real studio work" data-alt="Engagement"><img src="img/w/look-engagement.webp" alt="Engagement — Beauty Town client look" width="710" height="900" loading="lazy" decoding="async"><span class="cap">Engagement<small>Studio work</small></span></a><a class="tile" data-r href="img/w/look-festive.webp" data-lb data-cap="Festive &amp; Traditional · Real studio work" data-alt="Festive &amp; Traditional"><img src="img/w/look-festive.webp" alt="Festive &amp; Traditional — Beauty Town client look" width="710" height="900" loading="lazy" decoding="async"><span class="cap">Festive &amp; Traditional<small>Studio work</small></span></a><a class="tile" data-r href="img/w/look-signature.webp" data-lb data-cap="Signature · Real studio work" data-alt="Signature"><img src="img/w/look-signature.webp" alt="Signature — Beauty Town client look" width="710" height="900" loading="lazy" decoding="async"><span class="cap">Signature<small>Studio work</small></span></a><a class="tile" data-r href="img/w/look-purple.webp" data-lb data-cap="Signature · Real studio work" data-alt="Signature"><img src="img/w/look-purple.webp" alt="Signature — Beauty Town client look" width="720" height="673" loading="lazy" decoding="async"><span class="cap">Signature<small>Studio work</small></span></a></div></div></section>
+<section class="cta"><div class="glow" aria-hidden="true"></div><div class="wrap">
+<span class="eyebrow" data-r>Meet the artist</span>
+<h2 data-r>Your look starts with <em style="color:var(--goldl)">a hello.</em></h2>
+<p class="lead" data-r>Share your date, occasion and venue — Mohini will plan the look with you.</p>
+<div class="btns" data-r><a class="btn gold" href="https://wa.me/919548267020" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-1 .24-3.36-.7-2.84-1.12-4.63-4.03-4.77-4.22-.14-.19-1.14-1.52-1.14-2.9s.72-2.06.98-2.34c.25-.28.55-.35.74-.35l.53.01c.17.01.4-.06.62.48.25.6.84 2.06.91 2.21.07.15.12.32.02.51-.1.19-.15.31-.3.48l-.44.52c-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.06 1.14 1.01 2.1 1.33 2.4 1.48.3.15.47.12.65-.07.17-.2.74-.87.94-1.17.2-.3.39-.25.66-.15.27.1 1.72.81 2.01.96.3.15.49.22.57.34.07.12.07.71-.18 1.4Z"/></svg> Book on WhatsApp</a><a class="btn light" href="tel:+919548267020"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg> Call +91 95482 67020</a><a class="btn light" href="contact.html">Contact page</a></div>
 </div></section>
-
-<section class="blush"><div class="wrap">
-<p class="kick rv">03 <b>/</b> In numbers</p>
-<div class="stats" style="margin-top:44px">
-<div class="stat rv"><p class="n" data-count="6000">0</p><p class="l">Bridal makeups done</p></div>
-<div class="stat rv"><p class="n">29.8<b>K</b></p><p class="l">Instagram family</p></div>
-<div class="stat rv"><p class="n" data-count="1139">0</p><p class="l">Looks posted</p></div>
-<div class="stat rv"><p class="n">Etawah</p><p class="l">Civil Lines · near Dr. Sanjeev Yadav Hospital</p></div>
+</main>
+<footer class="foot"><div class="wrap">
+<div class="fgrid">
+<div><img class="flogo" src="img/logo-full-gold.png" alt="Beauty Town Makeup Studio" width="806" height="537" loading="lazy"><p>Professional makeup studio by Mohini Mishra. Bridal, engagement, party and festive looks, and hair treatments.</p></div>
+<div><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><h4>Book</h4><ul><li><a href="https://wa.me/919548267020" target="_blank" rel="noopener">WhatsApp +91 95482 67020</a></li><li><a href="tel:+919548267020">Call the studio</a></li><li><a href="mailto:beautytownmakeupstudio@gmail.com">Email us</a></li><li><a href="https://www.instagram.com/beautytownmakeupstudio/" target="_blank" rel="noopener">@beautytownmakeupstudio</a></li></ul></div>
+<div><h4>Visit</h4><address>Beauty Town Makeup Studio<br>Civil Lines, Etawah, Uttar Pradesh 206001, India<br>Near Dr. Sanjeev Yadav Hospital</address><p class="dir"><a class="link" href="https://www.google.com/maps/search/?api=1&query=Beauty%20Town%20Makeup%20Studio%2C%20Civil%20Lines%2C%20Etawah%2C%20Uttar%20Pradesh%20206001" target="_blank" rel="noopener">Get directions</a></p></div>
 </div>
-</div></section>
-
-<div class="cta-band"><div class="wrap">
-<p class="kick rv">Meet the artist</p>
-<h2 class="rv">Your look starts <em>with a hello.</em></h2>
-<a class="btn rv" href="contact.html">Say hello <span class="arr">&#8599;</span></a>
-</div></div>
-
-<footer><img class="flogo" src="img/logo-full-gold.png" alt="Beauty Town Makeup Studio logo"><div class="wrap"><span>&copy; 2026 Beauty Town Makeup Studio</span><span>Civil Lines, Etawah · <a href="https://www.instagram.com/beautytownmakeupstudio/" target="_blank" rel="noopener">@beautytownmakeupstudio</a></span></div></footer>
-<a class="wa-float" href="https://wa.me/919548267020" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.3 7L4 29l7.2-2.3c1.9 1 4 1.6 6.3 1.6h.5c6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-2 0-3.9-.6-5.5-1.6l-.4-.2-4.3 1.4 1.4-4.1-.3-.4c-1.2-1.7-1.9-3.8-1.9-6C5 9.9 9.9 5 16 5s11 4.9 11 11-4.9 11-11 11zm6.1-7.6c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.7-1.7-1-.9-1.7-2-1.9-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2.1-.4 0-.6-.1-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 2-.8 2.3-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.3-.6-.4z"/></svg></a>
-<script src="main.js?v=8"></script></body></html>
+<div class="fbase"><span>&copy; <span id="yr">2026</span> Beauty Town Makeup Studio · Civil Lines, Etawah</span><span>Images marked “AI concept” are AI-generated style ideas, not studio clients.</span></div>
+</div></footer>
+<a class="fab" href="https://wa.me/919548267020" target="_blank" rel="noopener" aria-label="Book on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.51.05-1 .24-3.36-.7-2.84-1.12-4.63-4.03-4.77-4.22-.14-.19-1.14-1.52-1.14-2.9s.72-2.06.98-2.34c.25-.28.55-.35.74-.35l.53.01c.17.01.4-.06.62.48.25.6.84 2.06.91 2.21.07.15.12.32.02.51-.1.19-.15.31-.3.48l-.44.52c-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.06 1.14 1.01 2.1 1.33 2.4 1.48.3.15.47.12.65-.07.17-.2.74-.87.94-1.17.2-.3.39-.25.66-.15.27.1 1.72.81 2.01.96.3.15.49.22.57.34.07.12.07.71-.18 1.4Z"/></svg></a>
+<div class="lb" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+<button class="x" type="button" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+<button class="pv" type="button" aria-label="Previous image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+<figure><img alt=""><figcaption></figcaption></figure>
+<button class="nx" type="button" aria-label="Next image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+</div>
+</body>
+</html>
