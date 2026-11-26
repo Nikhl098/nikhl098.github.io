@@ -1,0 +1,6 @@
+# robots.txt for nikhl098.github.io
+User-agent: *
+Disallow: /preview/
+Disallow: /beautytown/
+
+Sitemap: https://nikhl098.github.io/sitemap.xml
